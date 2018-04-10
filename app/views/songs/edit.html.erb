@@ -1,0 +1,6 @@
+<h1>Edit Song</h1>
+<%= render "form" %>
+
+<%= link_to "Delete", @song, method: :delete, confirm: "Delete?" %>
+<br />
+<%= link_to "All Songs", songs_path %>
